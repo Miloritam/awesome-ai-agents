@@ -4,6 +4,7 @@ jobs:
     steps: []
     parameters:
       env.wd: wd
+    dependencies: []
   Job2:
     name: Job 2
     dependencies: []
