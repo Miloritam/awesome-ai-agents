@@ -5,6 +5,9 @@ jobs:
     parameters:
       env.wd: wd
     dependencies: []
-  Job2:
-    name: Job 2
-    dependencies: []
+  Job3:
+    name: Job 3
+  Job5:
+    name: Job 5
+    dependencies:
+      - Job3
